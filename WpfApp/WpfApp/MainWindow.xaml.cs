@@ -23,6 +23,7 @@ namespace WpfApp
         public MainWindow()
         {
             InitializeComponent();
+            TimeTxtBlck.Text = DateTime.Now.ToShortTimeString();
         }
     }
 }
