@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <TextBlock Text="Time" 
+                   x:Name="TimeTxtBlck" 
+                   FontSize="220" 
+                   VerticalAlignment="Center" 
+                   HorizontalAlignment="Center"></TextBlock>
         
     </Grid>
 </Window>
